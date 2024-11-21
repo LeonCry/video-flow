@@ -19,7 +19,7 @@
 
 1. 配置
 
-- 全局搜索 `project-name` 替换为你的项目目录名
+- 全局搜索 `video-flow` 替换为你的项目目录名
 - `.env.local` 中 `VITE_APP_TITLE_ZH` 替换为你的项目中文名称
 - `.env.dev` `.env.pre` `.env.prod` 中 `VITE_PREFIX_URL` 一般用来表示接口前缀
 

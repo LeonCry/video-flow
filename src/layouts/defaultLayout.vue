@@ -1,7 +1,11 @@
+<script setup lang="ts">
+const url = ref('');
+</script>
+
 <template>
   <main class="h-screen w-screen">
-    <!-- push route or component here -->
-    <!-- <RouterView /> -->
-    <!-- <Component /> -->
+    <VideoFlow :url="url" />
   </main>
 </template>
+
+<style scoped lang="scss"></style>
